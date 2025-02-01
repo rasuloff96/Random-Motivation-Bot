@@ -1,100 +1,32 @@
-1. Believe in yourself and all that you are.
-2. Success is not final, failure is not fatal: it is the courage to continue that counts.
-3. Dream big, work hard, stay focused, and surround yourself with good people.
-4. Do what you can, with what you have, where you are.
-5. Opportunities don't happen. You create them.
-6. Your limitation—it's only your imagination.
-7. Push yourself, because no one else is going to do it for you.
-8. Great things never come from comfort zones.
-9. Hard work beats talent when talent doesn't work hard.
-10. The harder you work for something, the greater you'll feel when you achieve it.
-11. Don't stop when you're tired. Stop when you're done.
-12. Wake up with determination. Go to bed with satisfaction.
-13. Do something today that your future self will thank you for.
-14. Little things make big days.
-15. It’s going to be hard, but hard does not mean impossible.
-16. Don't wait for opportunity. Create it.
-17. Sometimes we’re tested not to show our weaknesses, but to discover our strengths.
-18. The key to success is to focus on goals, not obstacles.
-19. Dream it. Wish it. Do it.
-20. Act as if what you do makes a difference. It does.
-21. If you believe it will work out, you’ll see opportunities. If you don’t, you’ll see obstacles.
-22. Keep your face always toward the sunshine—and shadows will fall behind you.
-23. Positive anything is better than negative nothing.
-24. The only limit to our realization of tomorrow is our doubts of today.
-25. Problems are not stop signs, they are guidelines.
-26. The only way to do great work is to love what you do.
-27. You are never too old to set another goal or to dream a new dream.
-28. What lies behind us and what lies before us are tiny matters compared to what lies within us.
-29. Life is 10% what happens to us and 90% how we react to it.
-30. Happiness is not something ready-made. It comes from your own actions.
-31. We may encounter many defeats, but we must not be defeated.
-32. You are enough just as you are.
-33. Courage doesn’t always roar. Sometimes courage is the quiet voice at the end of the day saying, ‘I will try again tomorrow.’
-34. The best way to predict the future is to create it.
-35. A goal without a plan is just a wish.
-36. No matter how hard the past, you can always begin again.
-37. Success is getting what you want. Happiness is wanting what you get.
-38. If you can dream it, you can do it.
-39. Everything you’ve ever wanted is on the other side of fear.
-40. Stay positive. Work hard. Make it happen.
-41. Don’t be pushed around by the fears in your mind. Be led by the dreams in your heart.
-42. Be yourself; everyone else is already taken.
-43. What we achieve inwardly will change outer reality.
-44. Don’t count the days, make the days count.
-45. A little progress each day adds up to big results.
-46. The difference between ordinary and extraordinary is that little extra.
-47. Keep going. Everything you need will come to you at the perfect time.
-48. You can do anything, but not everything.
-49. The greatest weapon against stress is our ability to choose one thought over another.
-50. Do what is right, not what is easy nor what is popular.
-51. Failure is not falling down but refusing to get up.
-52. The past cannot be changed. The future is yet in your power.
-53. Strive not to be a success, but rather to be of value.
-54. Strength does not come from physical capacity. It comes from an indomitable will.
-55. Motivation is what gets you started. Habit is what keeps you going.
-56. If you are not willing to risk the usual, you will have to settle for the ordinary.
-57. We generate fears while we sit. We overcome them by action.
-58. Be somebody who makes everybody feel like a somebody.
-59. Life is too important to be taken seriously.
-60. Change your thoughts and you change your world.
-61. If opportunity doesn’t knock, build a door.
-62. We are what we repeatedly do. Excellence, then, is not an act, but a habit.
-63. Challenges are what make life interesting and overcoming them is what makes life meaningful.
-64. Do what you feel in your heart to be right, for you’ll be criticized anyway.
-65. Start where you are. Use what you have. Do what you can.
-66. Work hard in silence, let success make the noise.
-67. There is no substitute for hard work.
-68. Life is short. Live it. Fear is natural. Face it. Memory is powerful. Use it.
-69. It does not matter how slowly you go as long as you do not stop.
-70. The way to get started is to quit talking and begin doing.
-71. Don’t let yesterday take up too much of today.
-72. Knowing is not enough; we must apply. Willing is not enough; we must do.
-73. The only person you are destined to become is the person you decide to be.
-74. Either you run the day, or the day runs you.
-75. It always seems impossible until it’s done.
-76. Success is not how high you have climbed, but how you make a positive difference to the world.
-77. Start each day with a positive thought and a grateful heart.
-78. You are braver than you believe, stronger than you seem, and smarter than you think.
-79. When you have a dream, you've got to grab it and never let go.
-80. Limitations live only in our minds. But if we use our imaginations, our possibilities become limitless.
-81. Be so good they can’t ignore you.
-82. You miss 100% of the shots you don’t take.
-83. Life isn’t about finding yourself. It’s about creating yourself.
-84. No one is perfect – that’s why pencils have erasers.
-85. The secret of getting ahead is getting started.
-86. Don’t be afraid to give up the good to go for the great.
-87. The only difference between ordinary and extraordinary is that little extra.
-88. Stay hungry, stay foolish.
-89. It’s not whether you get knocked down, it’s whether you get up.
-90. Sometimes you win, sometimes you learn.
-91. Your life does not get better by chance, it gets better by change.
-92. Your potential is endless. Go do what you were created to do.
-93. Be the change that you wish to see in the world.
-94. Take the risk or lose the chance.
-95. Stop doubting yourself, work hard, and make it happen.
-96. Never let your fear decide your future.
-97. Success is not the key to happiness. Happiness is the key to success.
-98. Your speed doesn’t matter, forward is forward.
-99. Today is a perfect day to start living your dreams.
-100. Make today so awesome that yesterday gets jealous.
+"Success is not the key to happiness. Happiness is the key to success."
+"Believe in yourself and all that you are."
+"Your limitation—it’s only your imagination."
+"Push yourself, because no one else is going to do it for you."
+"Great things never come from comfort zones."
+"Dream it. Wish it. Do it."
+"Stay focused and never give up."
+"Hard work beats talent when talent doesn’t work hard."
+"Don’t stop when you’re tired. Stop when you’re done."
+"Wake up with determination. Go to bed with satisfaction."
+"Do what you can with what you have, where you are."
+"Start where you are. Use what you have. Do what you can."
+"Don’t let yesterday take up too much of today."
+"Everything you’ve ever wanted is on the other side of fear."
+"Act as if what you do makes a difference. It does."
+"The secret of getting ahead is getting started."
+"Believe you can and you're halfway there."
+"You are stronger than you think."
+"Go confidently in the direction of your dreams."
+"It does not matter how slowly you go as long as you do not stop."
+"The only limit to our realization of tomorrow is our doubts of today."
+"Success is getting what you want. Happiness is wanting what you get."
+"You don’t have to be great to start, but you have to start to be great."
+"A journey of a thousand miles begins with a single step."
+"The only way to achieve the impossible is to believe it is possible."
+"Opportunities don't happen. You create them."
+"Failure is not the opposite of success; it's part of success."
+"The future depends on what you do today."
+"Be yourself; everyone else is already taken."
+"Success is not final, failure is not fatal: it is the courage to continue that counts."
+"Don't wait for opportunity. Create it."
+"Do what you love and success will follow."
