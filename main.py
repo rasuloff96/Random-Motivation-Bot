@@ -1,59 +1,46 @@
-import os
+import telebot
 import random
-import logging
-from dotenv import load_dotenv
-from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
-from telegram.ext import Application, CommandHandler, CallbackQueryHandler
 
-# .env faylini yuklash
-load_dotenv()
+TOKEN = "7657302784:AAFKTW0VYDpY66U0Jz3X1qJzrprAkKEjQ1M"
+bot = telebot.TeleBot(TOKEN)
 
-# Telegram bot tokeni
-TOKEN = os.getenv("BOT_TOKEN")
+# Foydalanuvchi ma'lumotlarini saqlash uchun
+users = {}
 
-# Logger sozlamalari
-logging.basicConfig(format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO)
-logger = logging.getLogger(__name__)
-
-# Motivatsion gaplarni fayldan o‘qish
+# Motivatsion so'zlarni yuklash
 def load_quotes():
     with open("quotes.txt", "r", encoding="utf-8") as file:
-        return [line.strip() for line in file.readlines() if line.strip()]
+        return [line.strip() for line in file.readlines()]
 
 quotes = load_quotes()
 
-# /start buyrug'ini qayta ishlash
-async def start(update: Update, context):
-    keyboard = [[InlineKeyboardButton("💬 Get Motivation!", callback_data="motivation")]]
-    reply_markup = InlineKeyboardMarkup(keyboard)
-    await update.message.reply_text(
-        "Hello! I am your motivational bot. Press the button or type /motivation to get inspired!",
-        reply_markup=reply_markup
-    )
+# Foydalanuvchini ro'yxatdan o'tkazish
+@bot.message_handler(commands=["start"])
+def start(message):
+    chat_id = message.chat.id
+    bot.send_message(chat_id, "Salom! Iltimos, ismingizni kiriting:")
+    bot.register_next_step_handler(message, save_name)
 
-# Tasodifiy motivatsion gap yuborish
-async def send_motivation(update: Update, context):
-    chat_id = update.effective_chat.id
+# Foydalanuvchi ismini saqlash
+def save_name(message):
+    chat_id = message.chat.id
+    users[chat_id] = message.text
+    bot.send_message(chat_id, f"Rahmat, {message.text}! Motivatsiya olish uchun /motivate buyrug'idan foydalaning.")
+
+# Ismni yangilash
+@bot.message_handler(commands=["setname"])
+def set_name(message):
+    chat_id = message.chat.id
+    bot.send_message(chat_id, "Yangi ismingizni kiriting:")
+    bot.register_next_step_handler(message, save_name)
+
+# Motivatsion so'z yuborish
+@bot.message_handler(commands=["motivate"])
+def motivate(message):
+    chat_id = message.chat.id
+    name = users.get(chat_id, "Do'stim")
     quote = random.choice(quotes)
-    await context.bot.send_message(chat_id=chat_id, text=f"✨ {quote}")
-
-# Tugma bosilganda motivatsiya yuborish
-async def button_callback(update: Update, context):
-    query = update.callback_query
-    await query.answer()
-    if query.data == "motivation":
-        quote = random.choice(quotes)
-        await query.message.reply_text(f"✨ {quote}")
+    bot.send_message(chat_id, f"{name}, {quote}")
 
 # Botni ishga tushirish
-def main():
-    application = Application.builder().token(TOKEN).build()
-
-    application.add_handler(CommandHandler("start", start))
-    application.add_handler(CommandHandler("motivation", send_motivation))
-    application.add_handler(CallbackQueryHandler(button_callback))
-
-    application.run_polling()
-
-if __name__ == "__main__":
-    main()
+bot.polling()
