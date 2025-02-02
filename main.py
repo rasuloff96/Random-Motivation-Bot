@@ -1,7 +1,12 @@
 import telebot
 import random
+import os
+from dotenv import load_dotenv
 
-TOKEN = "7657302784:AAFKTW0VYDpY66U0Jz3X1qJzrprAkKEjQ1M"
+load_dotenv()
+
+TOKEN = os.getenv("TOKEN")
+
 bot = telebot.TeleBot(TOKEN)
 
 users = {}
